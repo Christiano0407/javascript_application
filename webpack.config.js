@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require(`html-webpack-plugin`);
 
 //guardar los archivos. Subir a producción.
 module.exports = {
-    entry: `../src/index.js`,
+    entry: `./src/index.js`,
     output: {
         path: path.resolve(__dirname, `dist`),
         filename: `main.js`
@@ -26,8 +26,8 @@ module.exports = {
         new HtmlWebpackPlugin([
             {
                 inject:true,
-                template: ` ../public/index.html`,
-                filename: ` ../index.html`,
+                template: ` ./public/index.html`,
+                filename: ` ./index.html`,
             }
         ])
     ]

@@ -1,0 +1,24 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "project javascript applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/javascript_application.git"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla",
+    "app"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/javascript_application/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/javascript_application#readme"
+}

@@ -4,7 +4,7 @@
   "description": "project javascript applications",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": " webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
